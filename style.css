@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:  #102040;
+    position: sticky;
+    top: 0;
+
+}
+li{
+    float:right;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: black;
+}
+.nav{
+    height: 20%;
+}
+.special-word{
+    color: orange;
+}
+.text{
+    text-shadow: 1px 1px 5px navy, 0px 0px 25px skyblue,0px 0px 50px darkorchid;
+}
+h1{
+    font-size: 60px;
+}
+/* work section headline class */
+.align{
+    position: absolute;
+    width: 383px;
+    height: 48px;
+    font-size: 30px;
+    margin-left:40%;
+    line-height: 48px;
+    margin-top: 10%;
+
+
+}
+
+.box-model{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    background-color:white;
+    padding:15px 15px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    padding: 15px 20px;
+    color:white;
+    font-weight: bold;
+}
+.btn-div{
+    margin-top:10%;
+    
+}
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    padding-left: 3%;
+    float: left;
+}
+.half-width img{
+    width:80%;
+   
+}
+section{
+    height:850px;
+}
+/* this class use for work section card */
+.rectangle{
+    background-color:  #F8F9FC;
+    box-shadow: 10px 10px 10px #F8F9FC;
+    border-radius: 5px;
+    width: 100%;
+    height: 950px;
+    left: 0px;
+    top: 1201px;
+}
+.card{
+    width: 25%;
+    height: 45%;
+    margin-top: 20%;
+    margin-left: 5%;
+    padding:10px 10px;
+    border-radius: 19px;
+    background-color:rgba(76, 0, 130, 0.767);
+    box-shadow:  10px 10px 40px grey;
+    float:left;
+    text-align: center;
+}
+.img-card1{
+    
+    width:350px;
+    height: 250px;
+    margin:15px 13px 26px 13px;
+}
+.img-card2{
+   
+    width: 345px;
+    height:250px;
+    margin:15px 15px 12px 16px;
+   
+
+}
+.img-card3{
+   
+    width:342px;
+    height:250px;
+    margin:18px 18px 14px 16px;
+
+}
+div.container{
+    padding:10px;
+    font-size:20px;
+    width:312px;
+    line-height: 28px;
+    font-weight: bold;
+    color:white;
+    
+    
+}
+/* use this class for education section*/
+.education-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:indigo;
+    box-shadow: 10px 10px 10px #F8F9FC;
+    border-radius: 5px;
+    width: 100%;
+    height: 950px;
+    left: 0px;
+    top: 1201px;
+}
+#edu-card{
+    width: 25%;
+    height: 45%;
+    margin-top: 20%;
+    margin-left: 5%;
+    padding:10px 10px;
+    border-radius: 19px;
+    background-color:lightgray;
+    box-shadow:  10px 10px 40px grey;
+    float:left;
+    text-align: center;
+}
+.contact-area{
+    background-image: url("images/backgorund.png");
+    background-repeat: no-repeat;
+    background-size: 906px 225px;
+    margin:200px 267px 319px 267px;
+    border-radius: 30px;
+    
+  
+}
+
+.word-width{
+    font-size:25px;
+    color: #FFFFFF;
+    padding: 50px 50px 73px 50px;
+
+}
+/* this class use contact section button */
+
+.btn-width{
+    
+    padding: 85px 67px 80px 705px;
+   
+}
+footer{
+    text-align:center;
+}
+footer p{
+    margin-top: 200px;
+    margin-left:30%;
+    margin-right: 40%;
+    font-size: 25px;
+}
+div.icons{
+    margin-top:5%;
+
+}
+#img{
+    padding:27px;
+}
